@@ -1,0 +1,25 @@
+{
+  "name": "gthelloworld",
+  "version": "1.0.0",
+  "description": "A simple Hello World project for the Gas Town distributed AI worker system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "npm run test:unit",
+    "test:unit": "node tests/test.js",
+    "lint": "echo 'Linting not configured yet'",
+    "build": "echo 'No build step required for this project'"
+  },
+  "keywords": [
+    "hello-world",
+    "gas-town",
+    "nodejs",
+    "example"
+  ],
+  "author": "Gas Town Polecat",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
